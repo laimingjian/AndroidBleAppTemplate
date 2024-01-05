@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_bl_tips_libs">The current device does not support the Bluetooth function!</string>
+    <string name="add_device_libs">Add Device</string>
+    <string name="cancel_libs">Cancel</string>
+    <string name="set_up_libs">Set up</string>
+    <string name="get_permission_libs">Get permission</string>
+    <string name="permission_tips_libs">It can only be used after setting the permission</string>
+    <string name="connect_libs">Connect</string>
+</resources>

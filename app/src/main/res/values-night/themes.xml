@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ZhongYaBlack" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+        <!--指定状态栏是否为半透明。如果设置为 true，则状态栏将是半透明的。-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--指定导航栏是否为半透明。如果设置为 true，则导航栏将是半透明的。会遮住内容-->
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!--使用 @android:color/transparent 可将状态栏设置为透明。-->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!--指定应用程序的主要内容是否需要适应系统窗口。如果设置为 true，则主要内容将根据系统栏自动调整。-->
+        <item name="android:fitsSystemWindows">true</item>
+        <!--指定状态栏是否为浅色样式（例如黑色字体和图标）。该属性需要 API 级别为 M（Android 6.0）或更高才能生效-->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        <!--指定应用程序窗口是否绘制系统栏的背景。如果设置为 true，则应用程序窗口将绘制系统栏的背景。-->
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+</resources>

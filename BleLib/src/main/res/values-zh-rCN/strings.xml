@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_bl_tips_libs">当前设备不支持蓝牙！</string>
+    <string name="add_device_libs">添加设备</string>
+    <string name="cancel_libs">取消</string>
+    <string name="set_up_libs">设置</string>
+    <string name="get_permission_libs">获取权限</string>
+    <string name="permission_tips_libs">必须设置权限后使用</string>
+    <string name="connect_libs">连接</string>
+</resources>

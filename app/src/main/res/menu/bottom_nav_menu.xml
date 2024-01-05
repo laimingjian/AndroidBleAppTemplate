@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bnv_full_color"
+        android:icon="@drawable/bnv_full_color_selector"
+        android:title="@string/full_color" />
+    <item
+        android:id="@+id/bnv_colorful"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/symphony" />
+    <item
+        android:id="@+id/bnv_bl"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/bluetooth" />
+    <item
+        android:id="@+id/bnv_brightness"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/brightness" />
+    <item
+        android:id="@+id/bnv_setting"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/setting" />
+</menu>
